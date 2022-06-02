@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="site.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
+  <link rel="stylesheet" href="site.css">
+  <title>Sitezão</title>
+</head>
+
+<body class="todos">
+  <header>
+    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="index.html">
+
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div class="navbar-start">
+        <a class="navbar-item" href="index.html"><strong>Inicio</strong></a>
+        <a class="navbar-item" href="contato.html"> Contato </a>
+      </div>
+      </div>
+      </div>
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <a class="button is-primary">
+              <strong>inscrever-se</strong>
+            </a>
+            <a class="button "> Conecte-se </a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </nav>
+  </header>
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="maxresdefault.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Lucas De Freitas Roberto</p>
+                  <span class="tag is-dark is-medium ">JavaScript Full Stack Developer</span>
+                </div>
+              </div>
+              <p><strong>Telefone: </strong><a href="">(32) 99900-5655</a></p>
+              <p><strong>Email: </strong><a href="">lucasfreitas.t.2@hotmail.com</a></p>
+
+            </div>
+          </div>
+        </div>
+        <div class="column is-9">
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                Contato
+              </p>
+              </button>
+            </header>
+            <div class="card-content">
+              <div class="field ">
+                <label class="label">Nome</label>
+                <div class="control">
+                  <input class="input is-success" type="text" placeholder="Nome...">
+                </div>
+              </div>
+
+              <div class="field">
+                <label class="label">Usuário</label>
+                <div class="control has-icons-left has-icons-right">
+                  <input class="input is-success" type="text" placeholder="Usuário..." value="">
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-user"></i>
+                  </span>
+                  <span class="icon is-small is-right">
+                    <i class="fas fa-check"></i>
+                  </span>
+                </div>
+                <p class="help is-success">Este nome de usuário está disponível</p>
+              </div>
+
+              <div class="field">
+                <label class="label">Email</label>
+                <div class="control has-icons-left has-icons-right">
+                  <input class="input is-success" type="email" placeholder="Email..." value="">
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                  <span class="icon is-small is-right">
+                    <i class="fas fa-exclamation-triangle"></i>
+                  </span>
+                </div>
+                <p class="help is-danger">Este email é inválido</p>
+              </div>
+
+              <div class="field ">
+                <label class="label">Opções</label>
+                <div class="control">
+                  <div class="select">
+                    <select>
+                      <option>Na Há o Que Temer</option>
+                      <option>Não Há o Que Temer</option>
+                      <option>Não Há o Que Temer</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="field">
+                <label class="label">Mensagem</label>
+                <div class="control">
+                  <textarea class="textarea is-success" placeholder="Digite a Mensagem..." style="height: 200PX">É melhor obter sabedoria do que ouro! É melhor obter entendimento do que prata! 
+
+   Provérbios 16:16</textarea>
+                </div>
+              </div>
+
+              <div class="field">
+                <div class="control">
+                  <label class="checkbox">
+                    <input type="checkbox">
+                    Eu concordo com os<a href="#"> Termos e Condições</a>
+                  </label>
+                </div>
+              </div>
+
+              <div class="field">
+                <div class="control">
+                  <label class="radio">
+                    <input type="radio" name="question">
+                    Sim
+                  </label>
+                  <label class="radio">
+                    <input type="radio" name="question">
+                    Não
+                  </label>
+                </div>
+              </div>
+
+              <div class="field is-grouped">
+                <div class="control">
+                  <button class="button is-primary">Enviar</button>
+                </div>
+                <div class="control">
+                  <button class="button is-link is-light">Cancelar</button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
